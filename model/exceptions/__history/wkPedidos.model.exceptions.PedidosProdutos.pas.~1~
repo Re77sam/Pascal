@@ -1,0 +1,7 @@
+unit wkPedidos.model.exceptions.PedidosProdutos;
+
+interface
+
+implementation
+
+end.

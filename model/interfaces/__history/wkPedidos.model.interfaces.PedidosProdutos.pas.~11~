@@ -1,0 +1,35 @@
+unit wkPedidos.model.interfaces.PedidosProdutos;
+
+interface
+
+type
+  iPedidosProdutosModel = interface
+    ['{99495AFC-1768-49F6-AB0C-EA163C9AC36F}']
+
+    function Autoincrem(Value : Integer) : iPedidosProdutosModel; overload;
+    function Autoincrem : Integer; overload;
+
+    function NumeroPedido(Value : Integer) : iPedidosProdutosModel; overload;
+    function NumeroPedido : Integer; overload;
+
+    function CodigoProduto(Value : Integer) : iPedidosProdutosModel; overload;
+    function CodigoProduto : Integer; overload;
+
+    function Quantidade(Value : Integer) : iPedidosProdutosModel; overload;
+    function Quantidade : Integer; overload;
+
+    function VlrUnitario(Value : string) : iPedidosProdutosModel; overload;
+    function VlrUnitario : string; overload;
+
+    function VlrTotal(Value : string) : iPedidosProdutosModel; overload;
+    function VlrTotal : string; overload;
+end;
+
+  iPedidosProdutosFactory = interface
+    ['{3CF8B484-D5B3-4A0E-ABC3-0D063BE958A7}']
+    function PedidosProdutos : iPedidosProdutosModel;
+  end;
+
+implementation
+
+end.

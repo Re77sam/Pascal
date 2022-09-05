@@ -1,0 +1,119 @@
+unit wkPedidos.model.PedidosDadosGerais;
+
+interface
+
+uses
+  wkPedidos.model.interfaces.PedidosDadosGerais;
+
+type
+  TPedidosDadosGeraisModel = class(TInterfacedObject, iPedidosDadosGeraisModel)
+  private
+    FNumeroPedido : Integer;
+    FDataEmissao : string;
+    FCodigoCliente : Integer;
+    FNomeCliente : string;
+    FValorTotal : string;
+
+    function NumeroPedido(Value : Integer) : iPedidosDadosGeraisModel; overload;
+    function NumeroPedido : Integer; overload;
+
+    function DataEmissao(Value : string) : iPedidosDadosGeraisModel; overload;
+    function DataEmissao : string; overload;
+
+    function CodigoCliente(Value : Integer) : iPedidosDadosGeraisModel;
+      overload;
+    function CodigoCliente : Integer; overload;
+
+    function NomeCliente(Value : string) : iPedidosDadosGeraisModel; overload;
+    function NomeCliente : string; overload;
+
+    function ValorTotal(Value : string) : iPedidosDadosGeraisModel; overload;
+    function ValorTotal : string; overload;
+
+  public
+    constructor Create;
+    destructor Destroy; override;
+    class function New : iPedidosDadosGeraisModel;
+  end;
+
+implementation
+
+{ TPedidosDadosGeraisModel }
+
+function TPedidosDadosGeraisModel.CodigoCliente: Integer;
+begin
+  Result := FCodigoCliente;
+end;
+
+function TPedidosDadosGeraisModel.CodigoCliente(
+  Value: Integer): iPedidosDadosGeraisModel;
+begin
+  Result := Self;
+  FCodigoCliente := Value;
+end;
+
+constructor TPedidosDadosGeraisModel.Create;
+begin
+
+end;
+
+function TPedidosDadosGeraisModel.DataEmissao(
+  Value: string): iPedidosDadosGeraisModel;
+begin
+  Result := Self;
+  FDataEmissao := Value;
+end;
+
+function TPedidosDadosGeraisModel.DataEmissao: string;
+begin
+  Result := FDataEmissao;
+end;
+
+destructor TPedidosDadosGeraisModel.Destroy;
+begin
+
+  inherited;
+end;
+
+class function TPedidosDadosGeraisModel.New: iPedidosDadosGeraisModel;
+begin
+  Result := Self.Create;
+end;
+
+function TPedidosDadosGeraisModel.NomeCliente(
+  Value: string): iPedidosDadosGeraisModel;
+begin
+  Result := Self;
+  FNomeCliente := Value;
+end;
+
+function TPedidosDadosGeraisModel.NomeCliente: string;
+begin
+  Result := FNomeCliente;
+end;
+
+function TPedidosDadosGeraisModel.NumeroPedido(
+  Value: Integer): iPedidosDadosGeraisModel;
+begin
+  Result := Self;
+  FNumeroPedido := Value;
+end;
+
+function TPedidosDadosGeraisModel.NumeroPedido: Integer;
+begin
+  Result := FNumeroPedido;
+end;
+
+function TPedidosDadosGeraisModel.ValorTotal(
+  Value: string): iPedidosDadosGeraisModel;
+begin
+  Result := Self;
+  FValorTotal := Value;
+end;
+
+function TPedidosDadosGeraisModel.ValorTotal: string;
+begin
+  Result := FValorTotal;
+end;
+
+end.

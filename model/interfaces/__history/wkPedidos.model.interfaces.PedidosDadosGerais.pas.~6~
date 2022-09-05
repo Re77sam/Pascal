@@ -1,0 +1,34 @@
+unit wkPedidos.model.interfaces.PedidosDadosGerais;
+
+interface
+
+type
+    iPedidoDadosGeraisModel = interface
+      ['{0AA4EA8D-3601-45E3-B220-5F52AB08C0B6}']
+
+      function NumeroPedido(Value : Integer)
+        : iPedidoDadosGeraisModel; overload;
+      function NumeroPedido : Integer; overload;
+
+      function DataEmissao(Value : string)
+        : iPedidoDadosGeraisModel; overload;
+      function DataEmissao : string; overload;
+
+      function CodigoCliente(Value : Integer)
+        : iPedidoDadosGeraisModel; overload;
+      function CodigoCliente : Integer; overload;
+
+      function ValorTotal(Value : string)
+        : iPedidoDadosGeraisModel; overload;
+      function ValorTotal : string; overload;
+    end;
+
+    iPedidoDadosGeraisFactoryInterfaces = interface
+      ['{D7393DD8-5302-4BA8-A847-7E882FF819D2}']
+      function PedidoDadosGerais : iPedidoDadosGeraisModel;
+    end;
+
+
+implementation
+
+end.

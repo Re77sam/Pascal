@@ -1,0 +1,102 @@
+unit wkPedidos.model.PedidosDadosGerais;
+
+interface
+
+uses
+  wkPedidos.model.interfaces.PedidosDadosGerais;
+
+type
+  TPedidosDadosGeraisModel = class(TInterfacedObject, iPedidosDadosGeraisModel)
+  private
+    FNumeroPedido : Integer;
+    FDataEmissao : Integer;
+    FCodigoCliente : Integer;
+    FValorTotal : string;
+
+    function NumeroPedido(Value : Integer) :
+      iPedidosDadosGeraisModel; overload;
+    function NumeroPedido : Integer; overload;
+
+    function DataEmissao(Value : string) :
+      iPedidosDadosGeraisModel; overload;
+    function DataEmissao : string; overload;
+
+    function CodigoCliente(Value : Integer) :
+      iPedidosDadosGeraisModel; overload;
+    function CodigoCliente : Integer; overload;
+
+    function ValorTotal(Value : string) :
+      iPedidosDadosGeraisModel; overload;
+    function ValorTotal : string; overload;
+
+  public
+    constructor Create;
+    destructor Destroy; override;
+    class function New : iPedidosDadosGeraisModel;
+  end;
+
+implementation
+
+{ TPedidosDadosGeraisModel }
+
+function TPedidosDadosGeraisModel.CodigoCliente: Integer;
+begin
+
+end;
+
+function TPedidosDadosGeraisModel.CodigoCliente(
+  Value: Integer): iPedidosDadosGeraisModel;
+begin
+
+end;
+
+constructor TPedidosDadosGeraisModel.Create;
+begin
+
+end;
+
+function TPedidosDadosGeraisModel.DataEmissao(
+  Value: string): iPedidosDadosGeraisModel;
+begin
+
+end;
+
+function TPedidosDadosGeraisModel.DataEmissao: string;
+begin
+
+end;
+
+destructor TPedidosDadosGeraisModel.Destroy;
+begin
+
+  inherited;
+end;
+
+class function TPedidosDadosGeraisModel.New: iPedidosDadosGeraisModel;
+begin
+
+end;
+
+function TPedidosDadosGeraisModel.NumeroPedido(
+  Value: Integer): iPedidosDadosGeraisModel;
+begin
+
+end;
+
+function TPedidosDadosGeraisModel.NumeroPedido: Integer;
+begin
+
+end;
+
+function TPedidosDadosGeraisModel.ValorTotal(
+  Value: string): iPedidosDadosGeraisModel;
+begin
+
+end;
+
+function TPedidosDadosGeraisModel.ValorTotal: string;
+begin
+
+end;
+
+end.

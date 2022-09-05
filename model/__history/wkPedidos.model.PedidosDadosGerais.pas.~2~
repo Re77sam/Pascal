@@ -1,0 +1,32 @@
+unit wkPedidos.model.PedidosDadosGerais;
+
+interface
+
+uses
+  System, wkPedidos.model.interfaces.PedidosDadosGerais;
+
+type
+  TPedidosDadosGeraisModel = class(TInterfacedObject, iPedidosDadosGeraisModel)
+    private
+    function NumeroPedido(Value : Integer) :
+      iPedidosDadosGeraisModel; overload;
+    function NumeroPedido : Integer; overload;
+
+    function DataEmissao(Value : string) :
+      iPedidosDadosGeraisModel; overload;
+    function DataEmissao : string; overload;
+
+    function CodigoCliente(Value : Integer) :
+      iPedidosDadosGeraisModel; overload;
+    function CodigoCliente : Integer; overload;
+
+    function ValorTotal(Value : string) :
+      iPedidosDadosGeraisModel; overload;
+    function ValorTotal : string; overload;
+    public
+
+  end;
+
+implementation
+
+end.

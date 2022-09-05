@@ -1,0 +1,7 @@
+unit wkPedidos.model.interfaces.PedidosProdutos;
+
+interface
+
+implementation
+
+end.

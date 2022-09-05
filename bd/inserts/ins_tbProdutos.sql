@@ -1,0 +1,27 @@
+use wkdb;
+
+INSERT INTO `wkdb`.`tbprodutos` (`Descricao`, `PrecoVenda`) VALUES ('Sabão em Pó', 12.90);
+INSERT INTO `wkdb`.`tbprodutos` (`Descricao`, `PrecoVenda`) VALUES ('Amaciante', 8.50);
+INSERT INTO `wkdb`.`tbprodutos` (`Descricao`, `PrecoVenda`) VALUES ('Detergente', 2.99);
+INSERT INTO `wkdb`.`tbprodutos` (`Descricao`, `PrecoVenda`) VALUES ('Água Sanitária', 2.75);
+INSERT INTO `wkdb`.`tbprodutos` (`Descricao`, `PrecoVenda`) VALUES ('Esponja de Aço', 4.50);
+INSERT INTO `wkdb`.`tbprodutos` (`Descricao`, `PrecoVenda`) VALUES ('Bucha de Pia', 3.99);
+INSERT INTO `wkdb`.`tbprodutos` (`Descricao`, `PrecoVenda`) VALUES ('Sabão em Pedra', 0.79);
+INSERT INTO `wkdb`.`tbprodutos` (`Descricao`, `PrecoVenda`) VALUES ('Sabonete', 1.20);
+INSERT INTO `wkdb`.`tbprodutos` (`Descricao`, `PrecoVenda`) VALUES ('Shampoo', 10.50);
+INSERT INTO `wkdb`.`tbprodutos` (`Descricao`, `PrecoVenda`) VALUES ('Condicionador', 11.00);
+INSERT INTO `wkdb`.`tbprodutos` (`Descricao`, `PrecoVenda`) VALUES ('Desinfetante', 1.39);
+INSERT INTO `wkdb`.`tbprodutos` (`Descricao`, `PrecoVenda`) VALUES ('Lustra Móveis', 3.55);
+INSERT INTO `wkdb`.`tbprodutos` (`Descricao`, `PrecoVenda`) VALUES ('Tira Manchas', 3.00);
+INSERT INTO `wkdb`.`tbprodutos` (`Descricao`, `PrecoVenda`) VALUES ('Limpa Vidros', 6.50);
+INSERT INTO `wkdb`.`tbprodutos` (`Descricao`, `PrecoVenda`) VALUES ('Álcool Liquido', 0.00);
+INSERT INTO `wkdb`.`tbprodutos` (`Descricao`, `PrecoVenda`) VALUES ('Álcool em Gel', 8.20);
+INSERT INTO `wkdb`.`tbprodutos` (`Descricao`, `PrecoVenda`) VALUES ('Saco de Lixo 10L', 6.99);
+INSERT INTO `wkdb`.`tbprodutos` (`Descricao`, `PrecoVenda`) VALUES ('Saco de Lixo 30L', 8.99);
+INSERT INTO `wkdb`.`tbprodutos` (`Descricao`, `PrecoVenda`) VALUES ('Saco de Lixo 50L', 9.99);
+INSERT INTO `wkdb`.`tbprodutos` (`Descricao`, `PrecoVenda`) VALUES ('Saco de Lixo 100L', 18.00);
+INSERT INTO `wkdb`.`tbprodutos` (`Descricao`, `PrecoVenda`) VALUES ('Suco Integral 1L', 15.90);
+INSERT INTO `wkdb`.`tbprodutos` (`Descricao`, `PrecoVenda`) VALUES ('Suco de Caixinha', 4.50);
+INSERT INTO `wkdb`.`tbprodutos` (`Descricao`, `PrecoVenda`) VALUES ('Suco Sachê', 0.39);
+INSERT INTO `wkdb`.`tbprodutos` (`Descricao`, `PrecoVenda`) VALUES ('Leite de Caixinha Integral', 3.80);
+INSERT INTO `wkdb`.`tbprodutos` (`Descricao`, `PrecoVenda`) VALUES ('Leite de Caixinha Desnatado', 4.00);

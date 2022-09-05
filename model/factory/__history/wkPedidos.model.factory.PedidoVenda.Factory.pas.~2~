@@ -1,0 +1,7 @@
+unit wkPedidos.model.factory.PedidoVenda.factory;
+
+interface
+
+implementation
+
+end.

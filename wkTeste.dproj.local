@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/05/26 22:06:58.000.491,=C:\Users\Dileno\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/02/14 17:42:56.000.581,=C:\Users\Dileno\Documents\Embarcadero\Studio\Projects\AppletModule1.pas</Transaction>
+    <Transaction>2022/03/16 14:17:04.000.580,=C:\Users\Dileno\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/03/16 14:18:45.000.047,C:\projects\wkPedidos\views\wkPedidos.views.Pedidos.pas=C:\Users\Dileno\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/03/16 14:18:45.000.047,C:\projects\wkPedidos\views\wkPedidos.views.Pedidos.dfm=C:\Users\Dileno\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2022/03/16 14:18:59.000.436,C:\projects\wkPedidos\wkPedidos.dproj=C:\Users\Dileno\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2022/03/16 16:01:38.000.858,=C:\projects\wkPedidos\Unit1.pas</Transaction>
+    <Transaction>2022/03/16 16:02:22.000.595,C:\projects\wkPedidos\model\wkPedidos.model.PedidoVendaModel.pas=C:\projects\wkPedidos\Unit1.pas</Transaction>
+    <Transaction>2022/03/16 16:02:33.000.932,=C:\projects\wkPedidos\Unit1.pas</Transaction>
+    <Transaction>2022/03/16 16:02:59.000.205,C:\projects\wkPedidos\model\wkPedidos.model.PedidoVenda.Model.pas=C:\projects\wkPedidos\model\wkPedidos.model.PedidoVendaModel.pas</Transaction>
+    <Transaction>2022/03/16 16:04:34.000.471,=C:\projects\wkPedidos\Unit1.pas</Transaction>
+    <Transaction>2022/03/16 16:05:10.000.733,C:\projects\wkPedidos\model\factory\wkPedidos.model.factory.PedidoVenda.factory.pas=C:\projects\wkPedidos\Unit1.pas</Transaction>
+    <Transaction>2022/03/16 16:05:44.000.302,=C:\projects\wkPedidos\Unit1.pas</Transaction>
+    <Transaction>2022/03/16 16:06:30.000.167,C:\projects\wkPedidos\model\dao\wkPedidos.model.PedidoVenda.Dao.dfm=C:\projects\wkPedidos\Unit1.dfm</Transaction>
+    <Transaction>2022/03/16 16:06:30.000.167,C:\projects\wkPedidos\model\dao\wkPedidos.model.PedidoVenda.Dao.pas=C:\projects\wkPedidos\Unit1.pas</Transaction>
+    <Transaction>2022/03/16 16:08:03.000.621,C:\projects\wkPedidos\model\factory\wkPedidos.model.factory.PedidoVenda.factory.pas=</Transaction>
+    <Transaction>2022/03/16 16:08:29.000.252,=C:\projects\wkPedidos\model\factory\wkPedidos.model.factory.PedidoVenda.Factory.pas</Transaction>
+    <Transaction>2022/03/16 16:10:20.000.452,=C:\projects\wkPedidos\Unit1.pas</Transaction>
+    <Transaction>2022/03/16 16:10:56.000.341,C:\projects\wkPedidos\model\interfaces\wkPedidos.model.interfaces.PedidoVenda.Interfaces.pas=C:\projects\wkPedidos\Unit1.pas</Transaction>
+    <Transaction>2022/03/16 16:12:22.000.391,=C:\projects\wkPedidos\Unit1.pas</Transaction>
+    <Transaction>2022/03/16 16:12:55.000.582,C:\projects\wkPedidos\controller\wkPedidos.controller.PedidoVenda.Controller.pas=C:\projects\wkPedidos\Unit1.pas</Transaction>
+    <Transaction>2022/03/16 16:19:56.000.619,C:\projects\wkPedidos\model\factory\wkPedidos.model.factory.PedidoDadosGerais.pas=C:\projects\wkPedidos\model\factory\wkPedidos.model.factory.PedidoVenda.Factory.pas</Transaction>
+    <Transaction>2022/03/16 16:20:26.000.333,C:\projects\wkPedidos\model\wkPedidos.model.PedidoDadosGerais.pas=C:\projects\wkPedidos\model\wkPedidos.model.PedidoVenda.Model.pas</Transaction>
+    <Transaction>2022/03/16 16:20:53.000.412,=C:\projects\wkPedidos\Unit1.pas</Transaction>
+    <Transaction>2022/03/16 16:21:22.000.965,C:\projects\wkPedidos\model\wkPedidos.model.PedidoProdutos.pas=C:\projects\wkPedidos\Unit1.pas</Transaction>
+    <Transaction>2022/03/16 16:21:31.000.670,=C:\projects\wkPedidos\Unit1.pas</Transaction>
+    <Transaction>2022/03/16 16:22:04.000.962,C:\projects\wkPedidos\model\factory\wkPedidos.model.factory.PedidosProdutos.pas=C:\projects\wkPedidos\Unit1.pas</Transaction>
+    <Transaction>2022/03/16 16:22:39.000.831,C:\projects\wkPedidos\model\wkPedidos.model.Interfaces.PedidoDadosGerais.pas=C:\projects\wkPedidos\model\wkPedidos.model.PedidoDadosGerais.pas</Transaction>
+    <Transaction>2022/03/16 16:23:04.000.886,C:\projects\wkPedidos\model\wkPedidos.model.Interfaces.PedidoProdutos.pas=C:\projects\wkPedidos\model\wkPedidos.model.PedidoProdutos.pas</Transaction>
+    <Transaction>2022/03/16 16:24:47.000.310,C:\projects\wkPedidos\model\wkPedidos.model.PedidoDadosGerais.pas=C:\projects\wkPedidos\model\wkPedidos.model.Interfaces.PedidoDadosGerais.pas</Transaction>
+    <Transaction>2022/03/16 16:25:15.000.757,C:\projects\wkPedidos\model\wkPedidos.model.PedidoProdutos.pas=C:\projects\wkPedidos\model\wkPedidos.model.Interfaces.PedidoProdutos.pas</Transaction>
+    <Transaction>2022/03/16 16:26:08.000.486,C:\projects\wkPedidos\model\interfaces\wkPedidos.model.interfaces.PedidosDadosGerais.pas=C:\projects\wkPedidos\model\interfaces\wkPedidos.model.interfaces.PedidoVenda.Interfaces.pas</Transaction>
+    <Transaction>2022/03/16 16:26:31.000.106,C:\projects\wkPedidos\model\wkPedidos.model.PedidosDadosGerais.pas=C:\projects\wkPedidos\model\wkPedidos.model.PedidoDadosGerais.pas</Transaction>
+    <Transaction>2022/03/16 16:26:41.000.641,C:\projects\wkPedidos\model\wkPedidos.model.PedidosProdutos.pas=C:\projects\wkPedidos\model\wkPedidos.model.PedidoProdutos.pas</Transaction>
+    <Transaction>2022/03/16 16:27:15.000.643,=C:\projects\wkPedidos\Unit1.pas</Transaction>
+    <Transaction>2022/03/16 16:27:48.000.669,C:\projects\wkPedidos\model\interfaces\wkPedidos.model.interfaces.PedidosProdutos.pas=C:\projects\wkPedidos\Unit1.pas</Transaction>
+    <Transaction>2022/03/16 17:40:40.000.336,=C:\projects\wkPedidos\Unit1.pas</Transaction>
+    <Transaction>2022/03/16 17:41:18.000.973,C:\projects\wkPedidos\model\interfaces\wkPedidos.model.interfaces.PedidosProdutos.pas=</Transaction>
+    <Transaction>2022/03/16 17:41:25.000.986,=C:\projects\wkPedidos\Unit1.pas</Transaction>
+    <Transaction>2022/03/16 17:41:36.000.879,C:\projects\wkPedidos\Unit1.pas=C:\projects\wkPedidos\model\interfaces\wkPedidos.model.interfaces.PedidosProdutos.pas</Transaction>
+    <Transaction>2022/03/17 00:39:58.000.988,=C:\projects\wkPedidos\Unit1.pas</Transaction>
+    <Transaction>2022/03/17 00:40:46.000.243,C:\projects\wkPedidos\Unit1.pas=C:\projects\wkPedidos\util\uWkUtils.pas</Transaction>
+    <Transaction>2022/03/17 23:37:47.000.796,=C:\projects\wkTecnology\wkPedidos\Unit1.pas</Transaction>
+    <Transaction>2022/03/17 23:38:28.000.878,C:\projects\wkTecnology\wkPedidos\model\exceptions\wkPedidos.model.exceptions.PedidosDadosGerais.pas=C:\projects\wkTecnology\wkPedidos\Unit1.pas</Transaction>
+    <Transaction>2022/03/17 23:38:34.000.573,=C:\projects\wkTecnology\wkPedidos\Unit1.pas</Transaction>
+    <Transaction>2022/03/17 23:39:03.000.558,C:\projects\wkTecnology\wkPedidos\model\exceptions\wkPedidos.model.exceptions.PedidosProdutos.pas=C:\projects\wkTecnology\wkPedidos\Unit1.pas</Transaction>
+    <Transaction>2022/03/17 23:42:41.000.009,C:\projects\wkTecnology\wkPedidos\model\exceptions\wkPedidos.model.exceptions.PedidosProdutos.pas=</Transaction>
+    <Transaction>2022/03/17 23:42:54.000.795,C:\projects\wkTecnology\wkPedidos\model\exceptions\wkPedidos.model.exceptions.Pedidos.pas=C:\projects\wkTecnology\wkPedidos\model\exceptions\wkPedidos.model.exceptions.PedidosDadosGerais.pas</Transaction>
+  </Transactions>
+</BorlandProject>

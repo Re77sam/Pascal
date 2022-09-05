@@ -1,0 +1,151 @@
+unit wkPedidos.model.PedidosProdutos;
+
+interface
+
+uses
+  wkPedidos.model.interfaces.PedidosProdutos;
+
+type
+  TPedidosProdutosModel = class(TInterfacedObject, iPedidosProdutosModel)
+  private
+    FAutoincrem : Integer;
+    FNumeroPedido : Integer;
+    FCodigoProduto : Integer;
+    FDescricaoProduto : string;
+    FQuantidade : Integer;
+    FVlrUnitario : string;
+    FVlrTotal : string;
+
+    function Autoincrem(Value : Integer) : iPedidosProdutosModel; overload;
+    function Autoincrem : Integer; overload;
+
+    function NumeroPedido(Value : Integer) : iPedidosProdutosModel; overload;
+    function NumeroPedido : Integer; overload;
+
+    function CodigoProduto(Value : Integer) : iPedidosProdutosModel; overload;
+    function CodigoProduto : Integer; overload;
+
+    function DescricaoProduto(Value : String) : iPedidosProdutosModel; overload;
+    function DescricaoProduto : String; overload;
+
+    function Quantidade(Value : Integer) : iPedidosProdutosModel; overload;
+    function Quantidade : Integer; overload;
+
+    function VlrUnitario(Value : string) : iPedidosProdutosModel; overload;
+    function VlrUnitario : string; overload;
+
+    function VlrTotal(Value : string) : iPedidosProdutosModel; overload;
+    function VlrTotal : string; overload;
+
+  public
+    constructor Create;
+    destructor Destroy; override;
+    class function New : iPedidosProdutosModel;
+end;
+
+
+implementation
+
+{ TPedidosProdutosModel }
+
+function TPedidosProdutosModel.Autoincrem(
+  Value: Integer): iPedidosProdutosModel;
+begin
+  Result := Self;
+  FAutoincrem := Value;
+end;
+
+function TPedidosProdutosModel.Autoincrem: Integer;
+begin
+  Result := FAutoincrem;
+end;
+
+function TPedidosProdutosModel.CodigoProduto(
+  Value: Integer): iPedidosProdutosModel;
+begin
+  Result := Self;
+  FCodigoProduto := Value;
+end;
+
+function TPedidosProdutosModel.CodigoProduto: Integer;
+begin
+  Result := FCodigoProduto;
+end;
+
+constructor TPedidosProdutosModel.Create;
+begin
+
+end;
+
+function TPedidosProdutosModel.DescricaoProduto(
+  Value: String): iPedidosProdutosModel;
+begin
+  Result := Self;
+  FDescricaoProduto := Value;
+end;
+
+function TPedidosProdutosModel.DescricaoProduto: String;
+begin
+  Result := FDescricaoProduto;
+end;
+
+destructor TPedidosProdutosModel.Destroy;
+begin
+
+  inherited;
+end;
+
+class function TPedidosProdutosModel.New: iPedidosProdutosModel;
+begin
+  Result := Self.Create;
+end;
+
+function TPedidosProdutosModel.NumeroPedido: Integer;
+begin
+  Result := FNumeroPedido;
+end;
+
+function TPedidosProdutosModel.NumeroPedido(
+  Value: Integer): iPedidosProdutosModel;
+begin
+  Result := Self;
+  FNumeroPedido := Value;
+
+end;
+
+function TPedidosProdutosModel.Quantidade: Integer;
+begin
+  Result := FQuantidade;
+end;
+
+function TPedidosProdutosModel.Quantidade(
+  Value: Integer): iPedidosProdutosModel;
+begin
+  Result := Self;
+  FQuantidade := Value;
+end;
+
+function TPedidosProdutosModel.VlrTotal: string;
+begin
+  Result := FVlrTotal;
+end;
+
+function TPedidosProdutosModel.VlrTotal(Value: string): iPedidosProdutosModel;
+begin
+  Result := Self;
+  FVlrTotal := Value;
+end;
+
+function TPedidosProdutosModel.VlrUnitario(
+  Value: string): iPedidosProdutosModel;
+begin
+  Result := Self;
+  FVlrUnitario := Value;
+end;
+
+function TPedidosProdutosModel.VlrUnitario: string;
+begin
+  Result := FVlrUnitario;
+end;
+
+end.

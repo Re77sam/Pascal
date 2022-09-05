@@ -1,0 +1,12 @@
+unit wkPedidos.model.factory.PedidoDadosGerais;
+
+interface
+  uses
+    wkPedidos.model.interfaces.PedidosDadosGerais;
+
+type
+  TPedidosDadosGeraisFactory = class(TInterfacedObject, iPedidosDadosGeraisFactory
+
+implementation
+
+end.

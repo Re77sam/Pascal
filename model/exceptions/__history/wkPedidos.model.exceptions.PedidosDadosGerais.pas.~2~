@@ -1,0 +1,51 @@
+unit wkPedidos.model.exceptions.PedidosDadosGerais;
+
+interface
+
+uses System.SysUtils, Vcl.Dialogs, Vcl.Forms, System.UITypes;
+
+
+type
+  TClienteExceptions = class
+  private
+    { private declarations }
+    procedure Exceptions(Sender : TObject; E: Exception);
+  protected
+    { protected declarations }
+  public
+    { public declarations }
+    constructor Create;
+    destructor Destroy; override;
+  end;
+
+  var
+    Exceptions : TClienteExceptions;
+
+
+implementation
+
+{ TExceptions }
+
+constructor TClienteExceptions.Create;
+begin
+  Application.OnException := Exceptions;
+end;
+
+destructor TClienteExceptions.Destroy;
+begin
+
+  inherited;
+end;
+
+procedure TClienteExceptions.Exceptions(Sender: TObject; E: Exception);
+begin
+    MessageDlg(E.Message, mtWarning, [mbOK],0);
+end;
+
+initialization
+  Exceptions := TClienteExceptions.Create;
+
+finalization
+  Exceptions.DisposeOf;
+
+end.

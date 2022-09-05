@@ -1,0 +1,7 @@
+unit wkPedidos.model.exceptions.PedidosDadosGerais;
+
+interface
+
+implementation
+
+end.

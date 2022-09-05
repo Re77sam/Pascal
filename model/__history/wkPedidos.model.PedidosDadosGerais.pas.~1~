@@ -1,0 +1,7 @@
+unit wkPedidos.model.PedidosDadosGerais;
+
+interface
+
+implementation
+
+end.
